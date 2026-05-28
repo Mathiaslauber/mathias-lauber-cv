@@ -1,0 +1,155 @@
+---
+title: ""
+page-layout: full
+---
+
+```{=html}
+<section class="portfolio-hero">
+  <div class="portfolio-title">Portfolio</div>
+  <div class="portfolio-sub">Interactive Data Visualizations — Swiss Federal Statistical Office</div>
+  <div style="margin-top:1rem;">
+    <span class="tag t-purple" style="font-size:0.75rem;">Scrollytelling</span>
+    <span class="tag t-blue" style="font-size:0.75rem;">Interactive Charts</span>
+    <span class="tag t-green" style="font-size:0.75rem;">Maps</span>
+    <span class="tag t-orange" style="font-size:0.75rem;">BI / Tables</span>
+    <span class="tag t-pink" style="font-size:0.75rem;">Small Multiples</span>
+  </div>
+</section>
+
+<div style="background:#0d1117;">
+<div class="portfolio-body">
+
+  <blockquote style="margin-bottom:2rem;">
+    All visualizations were produced at the <strong>FSO (Swiss Federal Statistical Office)</strong>.
+    Live data feeds · Interactive controls · Responsive layouts.
+  </blockquote>
+
+  <!-- ── SCROLLYTELLING ── -->
+  <div class="cat-title">Scrollytelling</div>
+
+  <div class="viz-card">
+    <span class="cat-badge-purple">Scrollytelling</span>
+    <h3>Gender Equality in Switzerland</h3>
+    <a href="https://genderequality.bfs.admin.ch/en/" class="btn-ghost-cta" style="font-size:0.8rem; padding:0.35rem 0.9rem; margin-bottom:0.75rem; display:inline-block;" target="_blank">Open fullscreen ↗</a>
+    <iframe src="https://genderequality.bfs.admin.ch/en/" height="480" style="width:100%;border:none;" loading="lazy" title="Gender Equality Scrollytelling"></iframe>
+  </div>
+
+  <!-- ── INTERACTIVE ── -->
+  <div class="cat-title">Interactive Charts</div>
+
+  <div class="row g-4">
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Interactive</span>
+        <h3>Household Size &amp; Population</h3>
+        <div class="bfsviz-widget" data-vizid="gd-09.03.02.01-10" data-lang="en" data-state-household="taillemenage" data-state-ENV="desktop" data-state-year="2022"></div>
+        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.7/widget-v1.3.7/widget.js"></script>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Interactive</span>
+        <h3>Construction &amp; Housing</h3>
+        <div class="bfsviz-widget" data-vizid="gd-02.02-01" data-lang="en" data-state-year="1979/85" data-state-region="CH" data-state-ENV="desktop"></div>
+        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.7/widget-v1.3.7/widget.js"></script>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Interactive</span>
+        <h3>Swiss Residential Property Price Index (IMPI)</h3>
+        <div class="bfsviz-widget" data-vizid="gd-05.06.03.01.03" data-lang="en" data-state-quartal="vorjahresquartal" data-state-typ="total" data-state-region="geoscope4" data-state-ENV="desktop"></div>
+        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.7/widget-v1.3.7/widget.js"></script>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Interactive</span>
+        <h3>Migration &amp; Permits</h3>
+        <div class="bfsviz-widget" data-vizid="gd-13.05.01.04" data-lang="en" data-state-category="[&#34;Suisse&#34;,&#34;StatutS&#34;,&#34;PermisFRefugies7Minus&#34;]" data-state-ENV="desktop"></div>
+        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.7/widget-v1.3.8/widget.js"></script>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Interactive</span>
+        <h3>Energy Flows</h3>
+        <div class="bfsviz-widget" data-vizid="gr-15.06.01-fluss-v2" data-lang="en" data-state-year="" data-state-ENV="desktop"></div>
+        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.7/widget-v1.3.7/widget.js"></script>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Interactive</span>
+        <h3>Dwelling Vacancy Rate</h3>
+        <div class="bfsviz-widget" data-vizid="gd-21.05.02.02.10-ind" data-lang="en" data-state-choice="[&#34;1061901&#34;,&#34;5192901&#34;]" data-state-ENV="desktop"></div>
+        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.8/widget-v1.4/widget.js"></script>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MAPS ── -->
+  <div class="cat-title">Maps</div>
+  <div class="viz-card">
+    <span class="cat-badge">Map</span>
+    <h3>Most Frequent Last Names by Commune, 2022</h3>
+    <iframe title="Last names map" aria-label="Map" src="https://datawrapper.dwcdn.net/d0add131f4000d30db465143ff411997/5/" scrolling="no" frameborder="0" style="width:100%;border:none;" height="560" loading="lazy"></iframe>
+  </div>
+
+  <!-- ── BASIC CHARTS ── -->
+  <div class="cat-title">Charts &amp; Tables</div>
+  <div class="row g-4">
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Table</span>
+        <h3>Public Expenditure by Function, 2021</h3>
+        <iframe title="Public expenditure" src="https://datawrapper.dwcdn.net/2a495a032a1cf8425a4152287cd52f25/6/" scrolling="no" frameborder="0" style="width:100%;border:none;" height="548" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Range Plot</span>
+        <h3>Gender Equality — Key Figures</h3>
+        <iframe title="Gender equality" src="https://datawrapper.dwcdn.net/86caa122100936139cf91db2d2eb3a91/5/" scrolling="no" frameborder="0" style="width:100%;border:none;" height="484" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Bar Chart</span>
+        <h3>Median Income Differences</h3>
+        <iframe title="Median income" src="https://datawrapper.dwcdn.net/6f4461a8fe4a9032a203ba4a9afc6e93/10/" scrolling="no" frameborder="0" style="width:100%;border:none;" height="600" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Table</span>
+        <h3>Road Vehicle Sales</h3>
+        <iframe title="Vehicle sales" src="https://datawrapper.dwcdn.net/44b7cd7742a4c8cbde25957f5773fd6b/5/" scrolling="no" frameborder="0" style="width:100%;border:none;" height="600" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SMALL MULTIPLES ── -->
+  <div class="cat-title">Small Multiples</div>
+  <div class="row g-4">
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Small Multiples</span>
+        <h3>Statistical Overview 2024</h3>
+        <div class="bfsviz-widget" data-vizid="gr-14.05.07-2024" data-lang="fr" data-state-ENV="desktop"></div>
+        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.7/widget-v1.3.8/widget.js"></script>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Small Multiples</span>
+        <h3>Vehicle Fleet by Canton</h3>
+        <div class="bfsviz-widget" data-vizid="gd-14.03.04.05-wr-5" data-lang="en" data-state-ENV="desktop"></div>
+        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.7/widget-v1.3.7/widget.js"></script>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+```
