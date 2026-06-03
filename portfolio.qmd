@@ -58,8 +58,8 @@ page-layout: full
       <div class="viz-card">
         <span class="cat-badge">Interactive</span>
         <h3>Swiss Residential Property Price Index (IMPI)</h3>
-        <div class="bfsviz-widget" data-vizid="gd-05.06.03.01.03" data-lang="en" data-state-quartal="vorjahresquartal" data-state-typ="total" data-state-region="geoscope4" data-state-ENV="desktop"></div>
-        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.7/widget-v1.3.7/widget.js"></script>
+        <div class="fso-datavis-widget" data-vizid="gd-05.06.03.01.03" data-lang="e" data-state-quartal="vorjahresquartal" data-state-typ="total" data-state-region="geoscope1" data-state-ENV="desktop" data-state-env="desktop"></div>  <script src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.9/dynvis.min.js"></script>
+
       </div>
     </div>
     <div class="col-lg-6">
@@ -73,7 +73,7 @@ page-layout: full
     <div class="col-lg-6">
       <div class="viz-card">
         <span class="cat-badge">Interactive</span>
-        <h3>Energy Flows</h3>
+        <h3>Financial Flows</h3>
         <div class="bfsviz-widget" data-vizid="gr-15.06.01-fluss-v2" data-lang="en" data-state-year="" data-state-ENV="desktop"></div>
         <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.7/widget-v1.3.7/widget.js"></script>
       </div>
@@ -82,8 +82,7 @@ page-layout: full
       <div class="viz-card">
         <span class="cat-badge">Interactive</span>
         <h3>Dwelling Vacancy Rate</h3>
-        <div class="bfsviz-widget" data-vizid="gd-21.05.02.02.10-ind" data-lang="en" data-state-choice="[&#34;1061901&#34;,&#34;5192901&#34;]" data-state-ENV="desktop"></div>
-        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.8/widget-v1.4/widget.js"></script>
+      <div class="fso-datavis-widget" data-vizid="gd-21.05.02.02.10-ind" data-lang="e" data-state-choice="[&#34;5192901&#34;,&#34;230901&#34;]" data-state-ENV="desktop"></div><script src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.9/dynvis.min.js"></script>
       </div>
     </div>
   </div>
