@@ -169,6 +169,97 @@ page-layout: full
   </div>
 </section>
 
+<!-- ═══════════════════════ EVENTS — WE'VE MET ══════════════════════ -->
+<section class="s-surface">
+  <div class="c-wrap">
+    <h2 class="s-title">We've Probably Already Met</h2>
+    <p class="s-sub">Conferences, working groups and forums where I've spoken, learned and connected</p>
+
+    <div class="events-grid">
+
+      <div class="event-card">
+        <div class="ev-top">
+          <span class="ev-date">Jun 2023</span>
+          <span class="ev-loc">University of Lausanne</span>
+        </div>
+        <div class="ev-title">Brown Bag on Data Journalism</div>
+        <div class="ev-desc">An informal session on data journalism with Duc-Quang Nguyen, data journalist at <em>Le Temps</em> — exploring how data and storytelling meet in the newsroom.</div>
+        <div class="ev-tags">
+          <span class="tag t-purple">Data Journalism</span>
+          <span class="tag t-purple">Storytelling</span>
+        </div>
+      </div>
+
+      <div class="event-card">
+        <div class="ev-top">
+          <span class="ev-date">Nov 2024</span>
+          <span class="ev-loc">Neuchâtel</span>
+        </div>
+        <div class="ev-title">AI in Press &amp; Publishing — with Blick</div>
+        <div class="ev-desc">A conference with the newspaper <em>Blick</em> on how artificial intelligence is reshaping the press and publishing industry.</div>
+        <div class="ev-tags">
+          <span class="tag t-pink">Artificial Intelligence</span>
+          <span class="tag t-pink">Media</span>
+        </div>
+      </div>
+
+      <div class="event-card">
+        <div class="ev-top">
+          <span class="ev-date">Oct 2025</span>
+          <span class="ev-loc">Geneva</span>
+        </div>
+        <div class="ev-title">Sword Day — Cyberdefense &amp; AI Agents</div>
+        <div class="ev-desc">Sword's flagship event on cyberdefense and AI agents on Microsoft Azure, used as a live data provider for analytics workflows.</div>
+        <div class="ev-tags">
+          <span class="tag t-blue">AI Agents</span>
+          <span class="tag t-blue">Azure</span>
+          <span class="tag t-blue">Cyberdefense</span>
+        </div>
+      </div>
+
+      <div class="event-card">
+        <div class="ev-top">
+          <span class="ev-date">Nov 2025</span>
+          <span class="ev-loc">Olympic Museum, Lausanne</span>
+        </div>
+        <div class="ev-title">DAWG — Data Analyst Working Group</div>
+        <div class="ev-desc">The anti-doping Data Analyst Working Group, bringing together NADOs, International Federations and partners to align on data practices.</div>
+        <div class="ev-tags">
+          <span class="tag t-green">Anti-Doping</span>
+          <span class="tag t-green">Working Group</span>
+        </div>
+      </div>
+
+      <div class="event-card">
+        <div class="ev-top">
+          <span class="ev-date">Nov 2025</span>
+          <span class="ev-loc">Renens</span>
+        </div>
+        <div class="ev-title">Olympic Movement AI Engagement Forum</div>
+        <div class="ev-desc">A forum on AI across the Olympic Movement, alongside the IOC's anti-doping partners — shaping how the ecosystem adopts AI responsibly.</div>
+        <div class="ev-tags">
+          <span class="tag t-orange">Artificial Intelligence</span>
+          <span class="tag t-orange">Olympic Movement</span>
+        </div>
+      </div>
+
+      <div class="event-card ev-upcoming">
+        <div class="ev-top">
+          <span class="ev-date">Apr 2026 · Upcoming</span>
+          <span class="ev-loc">Lausanne</span>
+        </div>
+        <div class="ev-title">Databricks AI Day</div>
+        <div class="ev-desc">Databricks' AI Day — the latest on the Lakehouse platform, AI and data engineering at scale. See you there?</div>
+        <div class="ev-tags">
+          <span class="tag t-blue">Databricks</span>
+          <span class="tag t-blue">Artificial Intelligence</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- ════════════════════════ PARTICLES SCRIPT ═══════════════════════ -->
 <script>
 (function () {

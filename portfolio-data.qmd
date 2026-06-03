@@ -1,0 +1,170 @@
+---
+title: ""
+page-layout: full
+---
+
+```{=html}
+<section class="portfolio-hero">
+  <div class="portfolio-title">Portfolio Data</div>
+  <div class="portfolio-sub">Data Engineering at the World Anti-Doping Agency (WADA)</div>
+  <div style="margin-top:1rem;">
+    <span class="tag t-blue" style="font-size:0.75rem;">ETL Pipelines</span>
+    <span class="tag t-blue" style="font-size:0.75rem;">Data Warehousing</span>
+    <span class="tag t-purple" style="font-size:0.75rem;">Querying</span>
+    <span class="tag t-green" style="font-size:0.75rem;">Real-time Dashboards</span>
+    <span class="tag t-orange" style="font-size:0.75rem;">Databricks</span>
+  </div>
+</section>
+
+<div class="data-body">
+
+  <blockquote style="margin-bottom:2.5rem;">
+    Building the data backbone of global anti-doping — from raw source systems to
+    governed, queryable data and live dashboards that teams rely on every day.
+  </blockquote>
+
+  <!-- ── DATA FLOW DIAGRAM ── -->
+  <div class="cat-title">End-to-End Data Flow</div>
+
+  <div class="pipeline-flow">
+    <div class="pipe-stage">
+      <div class="pipe-icon">🗄️</div>
+      <div class="pipe-name">Sources</div>
+      <div class="pipe-tech">APIs · Files · DBs</div>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-stage">
+      <div class="pipe-icon">⚙️</div>
+      <div class="pipe-name">ETL / ELT</div>
+      <div class="pipe-tech">PySpark · Databricks</div>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-stage">
+      <div class="pipe-icon">🏛️</div>
+      <div class="pipe-name">Data Warehouse</div>
+      <div class="pipe-tech">Delta Lake</div>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-stage">
+      <div class="pipe-icon">🔍</div>
+      <div class="pipe-name">Querying</div>
+      <div class="pipe-tech">SQL · Semantic Models</div>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-stage">
+      <div class="pipe-icon">📊</div>
+      <div class="pipe-name">Dashboards</div>
+      <div class="pipe-tech">Real-time · Self-serve</div>
+    </div>
+  </div>
+
+  <!-- ── CAPABILITIES ── -->
+  <div class="cat-title">What I Build</div>
+
+  <div class="domains-grid">
+
+    <div class="domain-card">
+      <div class="d-icon">⚙️</div>
+      <div class="d-title">ETL / ELT Pipelines</div>
+      <div class="d-desc">Robust, automated pipelines that ingest, clean and transform data from heterogeneous source systems into a single trusted layer — scheduled, monitored and idempotent.</div>
+      <div class="d-pills">
+        <span class="tag t-blue">PySpark</span>
+        <span class="tag t-blue">Apache Spark</span>
+        <span class="tag t-blue">Workflows</span>
+        <span class="tag t-blue">Python</span>
+      </div>
+    </div>
+
+    <div class="domain-card">
+      <div class="d-icon">🏛️</div>
+      <div class="d-title">Data Warehousing</div>
+      <div class="d-desc">Designing and maintaining a Lakehouse on Delta Lake — bronze/silver/gold layers, partitioning and schema management for reliable, performant storage.</div>
+      <div class="d-pills">
+        <span class="tag t-green">Delta Lake</span>
+        <span class="tag t-green">Lakehouse</span>
+        <span class="tag t-green">Schema Design</span>
+        <span class="tag t-green">Medallion</span>
+      </div>
+    </div>
+
+    <div class="domain-card">
+      <div class="d-icon">🔍</div>
+      <div class="d-title">Querying &amp; Modelling</div>
+      <div class="d-desc">Performant SQL and semantic models that turn warehouse tables into business-ready datasets — well-documented, governed and easy to consume.</div>
+      <div class="d-pills">
+        <span class="tag t-purple">SQL</span>
+        <span class="tag t-purple">Semantic Models</span>
+        <span class="tag t-purple">Optimization</span>
+        <span class="tag t-purple">Data Catalog</span>
+      </div>
+    </div>
+
+    <div class="domain-card">
+      <div class="d-icon">🤝</div>
+      <div class="d-title">Data Provisioning</div>
+      <div class="d-desc">Making clean data available to users — analysts, federations and partners — through governed access, curated datasets and self-serve interfaces.</div>
+      <div class="d-pills">
+        <span class="tag t-orange">Self-Serve</span>
+        <span class="tag t-orange">Governance</span>
+        <span class="tag t-orange">Access Control</span>
+        <span class="tag t-orange">Data Sharing</span>
+      </div>
+    </div>
+
+    <div class="domain-card">
+      <div class="d-icon">📊</div>
+      <div class="d-title">Real-time Dashboards</div>
+      <div class="d-desc">Dashboards plugged directly into the data warehouse, refreshing in real time so decision-makers always work with the latest figures — no manual exports.</div>
+      <div class="d-pills">
+        <span class="tag t-green">Real-time</span>
+        <span class="tag t-green">BI Reports</span>
+        <span class="tag t-green">Live Refresh</span>
+        <span class="tag t-green">KPIs</span>
+      </div>
+    </div>
+
+    <div class="domain-card">
+      <div class="d-icon">🧱</div>
+      <div class="d-title">Databricks Platform</div>
+      <div class="d-desc">The backbone of it all: Databricks as a unified platform for engineering, warehousing and analytics — from notebooks and jobs to Unity Catalog governance.</div>
+      <div class="d-pills">
+        <span class="tag t-blue">Databricks</span>
+        <span class="tag t-blue">Unity Catalog</span>
+        <span class="tag t-blue">Jobs</span>
+        <span class="tag t-blue">Delta Lake</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── IN PROGRESS ── -->
+  <div class="cat-title">In Progress</div>
+
+  <div class="domains-grid">
+
+    <div class="domain-card is-progress">
+      <div class="d-icon">📰</div>
+      <div class="d-title">Infographics<span class="inprogress-badge">In progress</span></div>
+      <div class="d-desc">Designing clear, on-brand infographics to communicate anti-doping data and key figures to a broad audience — currently in development.</div>
+      <div class="d-pills">
+        <span class="tag t-yellow">Infographics</span>
+        <span class="tag t-yellow">Data Storytelling</span>
+        <span class="tag t-yellow">Design</span>
+      </div>
+    </div>
+
+    <div class="domain-card is-progress">
+      <div class="d-icon">📜</div>
+      <div class="d-title">Scrollytelling<span class="inprogress-badge">In progress</span></div>
+      <div class="d-desc">Building scroll-driven narratives that walk readers through the data step by step — combining visualization and story. Work in progress.</div>
+      <div class="d-pills">
+        <span class="tag t-yellow">Scrollytelling</span>
+        <span class="tag t-yellow">Interactive</span>
+        <span class="tag t-yellow">Narrative</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+```
