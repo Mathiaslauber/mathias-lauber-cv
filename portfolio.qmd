@@ -85,6 +85,22 @@ page-layout: full
       <div class="fso-datavis-widget" data-vizid="gd-21.05.02.02.10-ind" data-lang="e" data-state-choice="[&#34;5192901&#34;,&#34;230901&#34;]" data-state-ENV="desktop"></div><script src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.9/dynvis.min.js"></script>
       </div>
     </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Interactive</span>
+        <h3>Youth &amp; Education</h3>
+        <div class="fso-datavis-widget" data-vizid="gr-11.06.01.01.02-je" data-lang="f" data-state-ENV="desktop" data-state-env="desktop"></div>
+        <script src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.9/dynvis.min.js"></script>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="viz-card">
+        <span class="cat-badge">Interactive</span>
+        <h3>Environment Statistics 2023</h3>
+        <div class="bfsviz-widget" data-vizid="gr-15.11.03-e-23" data-lang="f" data-state-ENV="desktop" data-state-env="desktop"></div>
+        <script async src="https://viz.bfs.admin.ch/libs/viz-bfs/dynvis/dynvis-v0.7/widget-v1.3.8/widget.js"></script>
+      </div>
+    </div>
   </div>
 
   <!-- ── MAPS ── -->
